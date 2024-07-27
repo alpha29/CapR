@@ -14,8 +14,9 @@
 
 using namespace std;
 
-class FastafileReader {
- public:
+class FastafileReader
+{
+public:
   FastafileReader() {}
   void ReadFastafile(string input_file_name, vector<string> &sequences, vector<string> &names);
 };
