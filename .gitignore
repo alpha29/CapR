@@ -1,2 +1,5 @@
 # Ignore binary executable
 CapR
+
+# test output
+test.out
