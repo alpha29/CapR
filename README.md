@@ -30,6 +30,15 @@ Multibranch 0 4.48371e-12 3.45769e-05 8.38716e-05 0.0165036 ...
 Stem 2.23919e-07 0.891229 0.999688 0.999701 0.98264 ...  
 ```
 
+## Testing
+Per the paper, setting `maximal_span` to 100 seems to be non-crazy.
+
+```
+make
+./CapR test.fa test.out 100
+diff test.out test.out.control 
+```
+
 ## License
 This software is released under the MIT License, see LICENSE.txt.
 
